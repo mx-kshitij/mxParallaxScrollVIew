@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="mendix.mxparallaxscrollview.MxParallaxScrollView"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Native"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>Mx Parallax Scroll View</name>
+    <description>My widget description</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+            <property key="fixedHeader" type="widgets" required="false">
+                <caption>Fixed header</caption>
+                <description />
+            </property>
+            <property key="parallaxHeader" type="widgets" required="false">
+                <caption>Header</caption>
+                <description />
+            </property>
+            <property key="content" type="widgets" required="false">
+                <caption>Content</caption>
+                <description />
+            </property>
+            <property key="fixedHeaderHeight" type="integer" defaultValue="50">
+                <caption>Fixed header height</caption>
+                <description />
+            </property>
+            <property key="parallaxHeaderHeight" type="integer" defaultValue="50">
+                <caption>Parallax header height</caption>
+                <description />
+            </property>
+            <property key="contentHeaderHeight" type="integer" defaultValue="1000">
+                <caption>Content height</caption>
+                <description />
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
